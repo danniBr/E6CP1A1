@@ -6,11 +6,13 @@
 # <li> hola </li>
 # <li> hola </li>
 # </ul>
-
 a = 5
-b = ''
+b = '<li> hola </li>'
+
+puts "<ul>"
 
 a.times do
-  b = '<li> hola </li>'
+  puts b
 end
 
+puts "</ul>"
