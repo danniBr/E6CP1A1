@@ -11,3 +11,15 @@
 </table>
 
 =end
+
+puts '<table>'
+puts '<tbody>'
+puts '<tr>'
+
+3.times do |i|
+  puts "<td> #{i+1} </td>"
+end
+
+puts '</tr>'
+puts '</tbody>'
+puts '</table>'
